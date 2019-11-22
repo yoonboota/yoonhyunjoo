@@ -1,0 +1,92 @@
+@charset "uft-8";
+
+#container{}
+
+/*MainSlider*/
+
+.mainSlider{
+	width:800px;
+	height:400px;
+	line-height:400px; 
+	float:left;
+	background:red;
+
+	
+}
+.mainSlider p{
+	text-align: center;	
+}
+
+
+/*MainCon01*/
+.mainCon01{
+	position: relative;
+	float:left;
+	width:800px;
+	padding:80px 0;	
+	
+}
+
+.con01Btn{
+	text-align:center;
+	position:relative;
+
+}
+.con01Btn li{
+	width:150px;
+	height:150px;
+	line-height:150px; 
+	background:black;
+	display:inline-block;
+	border-radius:50%; 
+	margin-right:30px;
+	
+	
+}
+.con01Btn li:last-child{
+	margin-right:0;
+}
+.con01Btn li a{
+	color:#fff;
+	display:block;}
+
+.arrow{	}
+.arrow a{}
+
+
+.leftBtn{
+	background:url(../images/left-arrow.png) no-repeat;
+	text-indent:-9999px; 
+	position:absolute;
+	left:0;
+	top:50%;
+	margin-top:-10px;
+	margin-left:50px;
+	width:20px;
+    height:20px;
+    background-size:cover;
+	
+	
+}
+.leftBtn a{
+	display:block;
+}
+
+
+
+.rightBtn{
+	background:url(../images/right-arrow.png) no-repeat;
+	text-indent:-9999px; 
+	position:absolute;
+	right:0;
+	top:50%;
+	margin-top:-10px;
+	margin-right:50px; 
+	width:20px;
+    height:20px;
+    background-size:cover;
+	
+}
+.rightBtn a{
+	display:block;
+}
